@@ -1,0 +1,74 @@
+{
+  "books": [
+    {
+      "isbn": "9781449365555",
+      "title": "Learning JavaScript Design Patterns",
+      "author": "Addy Osmani",
+      "release_date": "2012-07-01T00:00:00.000Z",
+      "description": "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-date with the latest best practices, this book is for you.",
+      "price": "40",
+      "category": "Computer Engineering",
+      "image_url": "https://drive.google.com/open?id=1aFjUn_0jNPE9bwsmAj8dTciIW71KsW9N"
+    },
+    {
+      "isbn": "9781449365035",
+      "title": "Speaking JavaScript",
+      "author": "Axel Rauschmayer",
+      "release_date": "2014-02-01T00:00:00.000Z",
+      "description": "Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position.",
+      "price" : "20",
+      "category": "Computer Engineering",
+      "image_url": "https://drive.google.com/open?id=1ywe14HdVwAlE-4tF1Q63mxp86Th9NOsf"
+    },
+    {
+      "isbn": "9781491950296",
+      "title": "Programming JavaScript Applications",
+      "author": "Eric Elliott",
+      "release_date": "2014-07-01T00:00:00.000Z",
+      "description": "Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flexible and resilient code that's easier-yes, easier-to work with as your code base grows.",
+      "price" : "15",
+      "category": "Computer Engineering",
+      "image_url": "https://drive.google.com/open?id=1w6U7GJL5rgQ6ELhXg7QvVVpKJTNQz6yd"
+    },
+    {
+      "isbn": "9781593277574",
+      "title": "Understanding ECMAScript 6",
+      "author": "Nicholas C. Zakas",
+      "release_date": "2016-09-03T00:00:00.000Z",
+      "description": "ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that ECMAScript 6 brings to JavaScript.",
+      "price" : "20",
+      "category": "Computer Engineering",
+      "image_url": "https://drive.google.com/open?id=1tweJNZ0tD4ujS_msEcXkbCxEk31AD6c1"
+    },
+    {
+      "isbn": "9781491904244",
+      "title": "You Don't Know JS",
+      "author": "Kyle Simpson",
+      "release_date": "2015-12-27T00:00:00.000Z",
+      "description": "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language.",
+      "price" : "25",
+      "category": "Computer Engineering",
+      "image_url": "https://drive.google.com/open?id=1uZJeabi_uc7Ob3rV5pjWSGZz_ZG34P5s"
+    },
+    {
+      "isbn": "9781449325862",
+      "title": "Git Pocket Guide",
+      "author": "Richard E. Silverman",
+      "release_date": "2013-08-02T00:00:00.000Z",
+      "description": "This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git experience.",
+      "price" : "30",
+      "category": "Computer Engineering",
+      "image_url": "https://drive.google.com/open?id=1glnkDmeFubuF2tOCp65aB1q0hGTuyGK5"
+    },
+    {
+      "isbn": "9781449337711",
+      "title": "Designing Evolvable Web APIs with ASP.NET",
+      "author": "Glenn Block, et al.",
+      "release_date": "2014-04-07T00:00:00.000Z",
+      "description": "Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft’s ASP.NET Web API framework. In the process, you’ll learn how design and implement a real-world Web API.",
+      "price" : "35",
+      "category": "Computer Engineering",
+      "image_url": "https://drive.google.com/open?id=1NhuKx_PnCS_7HPgByC67KUDSt1ViwDBm"
+    }
+  ]
+}

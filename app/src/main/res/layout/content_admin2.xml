@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AdminActivity"
+    tools:showIn="@layout/activity_admin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addBooks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Books"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Button
+                android:id="@+id/editBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Book"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Button
+                android:id="@+id/deleteBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Book"
+                tools:layout_editor_absoluteX="254dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="62dp" />
+            <EditText
+                android:id="@+id/searchText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="48dp" />
+            <Button
+                android:id="@+id/searchSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="62dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/customize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customize"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="62dp" />
+            <EditText
+                android:id="@+id/cutomizeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="48dp" />
+            <Button
+                android:id="@+id/cutomizeSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="62dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/isbnView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter ISBN"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="62dp" />
+
+            <EditText
+                android:id="@+id/isbnText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="48dp" />
+
+            <Button
+                android:id="@+id/okDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="296dp"
+                tools:layout_editor_absoluteY="48dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/priceView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter price"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <EditText
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <Button
+            android:id="@+id/okEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="296dp"
+            tools:layout_editor_absoluteY="48dp" />
+    </LinearLayout>
+
+    <fragment
+        android:name="com.example.mahmayar.virtualshelfbrowser.BooksFragment"
+        android:id="@+id/bookFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
